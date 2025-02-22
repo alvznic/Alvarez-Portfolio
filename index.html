@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alvarez Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a href="/" class="logo">AlvaStudio.</a>
+        <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section id="home" class="home animated">
+          <div class="home-detail">
+            <h1>Nicole Alvarez</h1>
+            <h2>UI/UX Designer</h2>
+            <p>
+              A passionate student eager to create intuitive and user-friendly
+              digital experiences.
+            </p>
+
+            <div class="download-social">
+              <a href="#" class="btn" download>Download CV</a>
+              <div class="social-icons">
+                <a href="#" aria-label="GitHub"
+                  ><i class="ri-github-fill"></i
+                ></a>
+                <a href="#" aria-label="LinkedIn"
+                  ><i class="ri-linkedin-fill"></i
+                ></a>
+                <a href="#" aria-label="WhatsApp"
+                  ><i class="ri-whatsapp-fill"></i
+                ></a>
+                <a href="#" aria-label="Twitter"
+                  ><i class="ri-twitter-x-fill"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="image-img">
+            <div class="img-box">
+              <img src="profile.jpg" alt="Nicole Alvarez profile photo" />
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="about animated">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                Hi, I'm Nicole Alvarez, a UI/UX Designer who loves creating
+                clean, user-friendly, and visually appealing designs. I
+                specialize in crafting clean, functional, and visually appealing
+                designs using Figma. As a student, I am constantly learning and
+                improving my skills, focusing on user-centered design,
+                wireframing, and prototyping. I'm excited to grow, collaborate,
+                and bring fresh ideas to the world of UI/UX!
+              </p>
+
+              <div class="education">
+                <h3>Education</h3>
+                <div class="education-item">
+                  <h4>2023 - Present</h4>
+                  <h5>Bachelor of Science in Computer Science</h5>
+                  <p>STI College of Davao</p>
+                </div>
+                <div class="education-item">
+                  <h4>2021 - 2023</h4>
+                  <h5>Senior High School - STEM</h5>
+                  <p>University of the Immaculate Conception</p>
+                </div>
+                <div class="education-item">
+                  <h4>2017 - 2021</h4>
+                  <h5>Junior High School</h5>
+                  <p>University of the Immaculate Conception</p>
+                </div>
+              </div>
+
+              <div class="about-skills">
+                <h3>Skills</h3>
+                <div class="skill">
+                  <h4>UI Design</h4>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <h4>Collaboration & Communication</h4>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <h4>Design Principles & Branding</h4>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 80%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="portfolio" class="portfolio animated">
+          <h2 class="section-title">My Portfolio</h2>
+          <div class="portfolio-grid">
+            <div class="portfolio-item">
+              <img
+                src="bentogo.png"
+                alt="BentoGo Mobile Delivery App Interface"
+              />
+              <div class="portfolio-info">
+                <h3>BentoGo</h3>
+                <p>Bento Box Ordering App</p>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img src="safur.png" alt="Safur Pet Adoption App Interface" />
+              <div class="portfolio-info">
+                <h3>Safur</h3>
+                <p>Pet Adoption & Rescue Mobile App</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="contact animated">
+          <h2 class="section-title">Contact Me</h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="ri-mail-line"></i>
+                <h3>Email</h3>
+                <p>alvareznicole962@gmail.com</p>
+              </div>
+              <div class="contact-item">
+                <i class="ri-phone-line"></i>
+                <h3>Phone</h3>
+                <p>+639 08 818 4444</p>
+              </div>
+              <div class="contact-item">
+                <i class="ri-map-pin-line"></i>
+                <h3>Location</h3>
+                <p>Davao City, Philippines</p>
+              </div>
+            </div>
+            <form class="contact-form">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
